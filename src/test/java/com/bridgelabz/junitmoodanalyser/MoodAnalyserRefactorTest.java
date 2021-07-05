@@ -13,14 +13,14 @@ public class MoodAnalyserRefactorTest {
 	}
 
 	@Test
-	public void message1() {
+	public void messagesad() {
 		MoodAnalyserRefactor moodAnalyser = new MoodAnalyserRefactor("i am in happy Mood");
 		String mood = moodAnalyser.analyseMood();
 		Assert.assertEquals("SAD", mood);
 	}
 
 	@Test
-	public void message2() {
+	public void messagehappy() {
 		MoodAnalyserRefactor moodAnalyser = new MoodAnalyserRefactor(" i am in any Mood");
 		String mood = moodAnalyser.analyseMood();
 		Assert.assertEquals("HAPPY", mood);
