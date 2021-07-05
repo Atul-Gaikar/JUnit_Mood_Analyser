@@ -1,14 +1,14 @@
 package com.bridgelabz.junitmoodanalyser;
 
-public class MoodAnalyser {
+public class MoodAnalyserRefactor {
 
 	String message;
 
-	public MoodAnalyser(String message) {
+	public MoodAnalyserRefactor(String message) {
 		this.message = message;
 	}
 
-	MoodAnalyser() {
+	MoodAnalyserRefactor() {
 	}
 
 	public String analyseMood() {
