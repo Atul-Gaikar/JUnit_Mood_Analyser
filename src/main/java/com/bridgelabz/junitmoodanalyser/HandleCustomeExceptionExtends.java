@@ -1,6 +1,6 @@
 package com.bridgelabz.junitmoodanalyser;
 
-public class HandleExceptionExtends extends Exception {
+public class HandleCustomeExceptionExtends extends Exception {
 	static ExceptionTypes message;
 
 	enum ExceptionTypes {
@@ -10,7 +10,7 @@ public class HandleExceptionExtends extends Exception {
 		}
 	}
 
-	public HandleExceptionExtends(ExceptionTypes message) {
+	public HandleCustomeExceptionExtends(ExceptionTypes message) {
 		super(String.valueOf(message));
 		this.message = message;
 	}
